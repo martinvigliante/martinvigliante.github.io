@@ -2593,10 +2593,10 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/mudassir-ali-NZ0HxSy55hY-unsplash.jpg");
+		background-image: url("images/overlay.png"), url("../../images/luke-chesser-3rWagdKBF7U-unsplash.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								225%;
+		background-size: auto,						205%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -3234,6 +3234,6 @@ input, select, textarea {
 	padding: 15px;
     width: 100%;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
-    background-color: #a8b8ff9c;
+    background-color: #6893ff6c;
     border-radius: 10px;
 }  
