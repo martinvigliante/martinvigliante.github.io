@@ -533,7 +533,7 @@ input, select, textarea {
 					padding-top: 5em;
 				}
 
-		@media screen and (max-width: 1800px) {
+		@media screen {
 
 			.row {
 				display: flex;
@@ -778,7 +778,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1400px) {
 
 			.row {
 				display: flex;
@@ -2596,15 +2596,15 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("../../images/mudassir-ali-NZ0HxSy55hY-unsplash.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-size: auto,								225%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		padding: 8em 2.25em 2em 2.25em;
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 30%;
 	}
 
 		#header > * {
@@ -2685,16 +2685,16 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
+		margin-left: 30%;
 		max-width: 54em;
-		padding: 2em 4em 4em 4em;
-		width: calc(100% - 35%);
+		padding: 2.25em 4em 4em 4em;
+		width: calc(100% - 30%);
 	}
 
 		#main > section {
 			border-top: solid 2px #efefef;
-			margin: 2em 0 0 0;
-			padding: 2em 0 0 0;
+			margin: 2.25em 0 0 0;
+			padding: 2.25em 0 0 0;
 		}
 
 			#main > section:first-child {
@@ -2983,7 +2983,7 @@ input, select, textarea {
 
 /* XLarge */
 
-	@media screen and (max-width: 1800px) {
+	@media screen {
 
 		/* Basic */
 
@@ -2991,16 +2991,20 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+			#main {
+				padding: 2.25em;
+			}
+
 	}
 
 /* Large */
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 1400px) {
 
 		/* Header */
 
 			#header {
-				padding: 6em 3em 3em 3em;
+				padding: 8em 2.25em 2em 2.25em;
 				width: 30%;
 			}
 
@@ -3031,7 +3035,7 @@ input, select, textarea {
 			#main {
 				margin-left: 30%;
 				max-width: none;
-				padding: 6em 3em 3em 3em;
+				padding: 2.25em 2.25em 2.25em 2.25em;
 				width: calc(100% - 30%);
 			}
 
@@ -3060,7 +3064,7 @@ input, select, textarea {
 				background-position: top left, center center;
 				background-size: auto,		cover;
 				left: auto;
-				padding: 6em 4em;
+				padding: 2.25em 1.5em;
 				position: relative;
 				text-align: center;
 				top: auto;
@@ -3113,7 +3117,7 @@ input, select, textarea {
 
 			#main {
 				margin: 0;
-				padding: 6em 4em;
+				padding: 2.25em 4em;
 				width: 100%;
 			}
 
@@ -3204,7 +3208,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 4.5em 1.5em;
+				padding: 2.25em 1.5em;
 			}
 
 				#header h1 br {
@@ -3222,3 +3226,14 @@ input, select, textarea {
 			}
 
 	}
+
+/* Traductor */
+.traductor-container {
+    margin-left: auto;
+    margin-right: 0;
+	padding: 15px;
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    background-color: #a8b8ff9c;
+    border-radius: 10px;
+}  
