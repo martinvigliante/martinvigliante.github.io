@@ -2596,7 +2596,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("../../images/luke-chesser-3rWagdKBF7U-unsplash.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,						205%;
+		background-size: auto,						230%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -3085,7 +3085,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/mudassir-ali-NZ0HxSy55hY-unsplash.jpg");
+				background-image: url("images/overlay.png"), url("../../images/luke-chesser-3rWagdKBF7U-unsplash.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
@@ -3234,6 +3234,6 @@ input, select, textarea {
 	padding: 15px;
     width: 100%;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
-    background-color: #6893ff58;
+    background-color: #6893ff4f;
     border-radius: 10px;
 }
